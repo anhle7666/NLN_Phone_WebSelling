@@ -1,0 +1,11 @@
+.view-main__filter {
+    width: 100%;
+    max-width: fit-content;
+}
+.date{
+    outline: none;
+    padding: 5px 10px;
+    border: 1px solid #aaa;
+    border-radius: 10px;
+    margin-right: 30px;
+}

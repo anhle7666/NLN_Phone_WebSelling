@@ -1,0 +1,31 @@
+.status-bar {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 70px;
+    padding: 0 30px;
+    color: #000;
+    background-color: #dfdfdf;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product_list {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: #fcfcfc;
+}
+
+.Item{
+    padding: 20px;
+    border-bottom: 1px solid #343634;
+}
+
+

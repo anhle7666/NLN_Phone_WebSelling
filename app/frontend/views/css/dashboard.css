@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+main {
+    display: flex;
+}
+
+.function {
+    height: 100vh;
+    width: 200px;
+    min-width: 200px;
+    margin-right: 10px;
+    background-color: #ccc;
+    box-shadow: 1px 0 3px #222;
+}
+
+.function-personal {
+    margin: 0 10px;
+    padding: 20px 5px 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.function-persional__avatar img {
+    border-radius: 100px;
+    width: 50px;
+}
+
+.function-persional__name span{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.function-persional__status span{
+    font-size: 12px;
+}
+
+.function-menu__list {
+    margin: 50px 10px;
+    padding-left: 0;
+}
+
+.list--item {
+    list-style: none;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    border-bottom: 1px solid #555;
+}
+.list--item a{
+    color: #000;
+    text-decoration: none;
+}
+
+.list--item a:hover{
+    color: #555;
+}
+.list--item.active{
+    border-bottom: 2px solid #078fdd;
+}
+
+.view{
+    min-height: calc(100vh - 115px);
+    width: 100%;
+    min-width: 835px;
+}
+.view-search {
+    padding: 40px 10px 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #555;
+    background-color: #ddd;
+    margin-left: -10px;
+}
+.view-quantity, .view-presentCondition {
+    background-color: antiquewhite;
+    width: 200px;
+    height: 150px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.view-quantiy__count {
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1;
+}
+.view-presentCondition {
+    background-color:aquamarine;
+    width: 500px;
+    height: 200px;
+}
+.view-main {
+    padding: 20px;
+}
+.view-main__filter {
+    padding: 10px 20px;
+}

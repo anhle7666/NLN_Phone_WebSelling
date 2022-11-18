@@ -1,0 +1,66 @@
+    
+    body {
+        scroll-behavior: smooth;
+    }
+    .section {
+        position: relative;
+        min-height: 100vh;
+        transform-style: inherit;
+    }
+
+    #sect-2,
+    #sect-4,
+    #sect-6 {
+        background-image: url("https://tdtdecor.vn/wp-content/uploads/2022/04/thiet-ke-shop-dien-thoai-mi-store-quan-7-15.jpg");
+        filter: blur(3px);
+        min-height: 500px;
+    }
+
+    #sect-1,
+    #sect-2,
+    #sect-3,
+    #sect-4,
+    #sect-5,
+    #sect-6 {
+        position: relative;
+        background-position: top center ;
+        background-repeat: no-repeat;
+        background-size: cover ;
+        background-attachment: fixed;
+    }
+    #sect-1 {
+        background-image: url("https://cdn1.hoanghamobile.com/tin-tuc/wp-content/uploads/2022/02/2-5.jpeg");
+    }
+    #sect-3 {
+        background-image: url("https://genk.mediacdn.vn/139269124445442048/2022/4/28/samsung-galaxy-s22-family-in-blue-spread-like-cards-angled-16511484157771190040912.jpg");
+    }
+    #sect-5 {
+        background-image: url("https://www.androidauthority.com/wp-content/uploads/2022/06/Asus-Rog-Phone-6-back-hero-image.jpg");
+    }
+
+    .logo {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .promo {
+        position: relative;
+    }
+
+    .promo-btn {
+        background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+        border: 3px solid #f1f1f1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 80%;
+        padding: 50px;
+        text-align: center;
+      }
+    
+    
+
