@@ -15,7 +15,7 @@ main {
 }
 
 .function {
-    height: 100vh;
+    min-height: 100vh;
     width: 200px;
     min-width: 200px;
     margin-right: 10px;
